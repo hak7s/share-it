@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is the Front Controller
  * HTTP traffic must be redirected to this file
@@ -15,8 +16,7 @@ require_once __DIR__ . '/../config/bootstrap.php';
 // Application routes
 $app
     ->get('/', [HomeController::class, 'homepage'])
-    ->setName('homepage')
-;
+    ->setName('homepage');
 
 // Start the application
 $app->run();
