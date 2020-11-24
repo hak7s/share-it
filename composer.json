@@ -3,12 +3,10 @@
     "description": "Preconfigured Slim app including PHP-DI, Twig and Doctrine DBAL.",
     "type": "project",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "AymDev",
-            "email": "aymericmayeux@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "AymDev",
+        "email": "aymericmayeux@gmail.com"
+    }],
     "minimum-stability": "stable",
     "scripts": {
         "serve": "php -S localhost:8000 -t public"
