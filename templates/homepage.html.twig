@@ -35,6 +35,12 @@
                         Il faut ouvrir la boucle {% %}
                         On indique la fermetue de la boucle avec un bloc: endfor
                         #}
+                        {% for user in users %}
+                            {{ user }}<br>
+                        {% endfor %}
+
+                       <a href="{{ link('test') }} ">Test </a>
+
                         <figure class="image">
                             <img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" alt="Welcome GIF">
                         </figure>
