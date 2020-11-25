@@ -1,18 +1,18 @@
 {% extends "base.html.twig" %}
 {#On ecrase le block "title" #}
 {% block titke %}
-    Share it!
+	Share it!
 {% endblock %}
 
 {% block body %}
-<h1>Share It!</h1>
+	<h1>Share It!</h1>
 
-<form method="post" enctype="multipart/form-data">
+	<form method="post" enctype="multipart/form-data">
 
-    <label>Fichier</label><br>
-    <input type="file" name="fichier"><br><br>
+		<label>Fichier</label><br>
+		<input type="file" name="fichier"><br><br>
 
-    <input type="submit" value="envoyer">
-</form>
+		<input type="submit" value="envoyer">
+	</form>
 
 {% endblock %}
